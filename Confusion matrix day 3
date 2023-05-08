@@ -1,0 +1,5 @@
+library('e1071')
+av1=factor(c(0,1,0,1))
+pv1=factor(c(0,0,1,1))
+confusion_matrix=as.matrix(table(actualvalues=av1,predictedvalues=pv1))
+confusion_matrix
