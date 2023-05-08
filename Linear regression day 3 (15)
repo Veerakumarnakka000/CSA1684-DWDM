@@ -1,0 +1,6 @@
+head(mtcars)
+mp1=mtcars$mpg
+cy1=mtcars$cyl
+relation=lm(mp1~cy1)
+relation
+plot(mp1,cy1,col="blue",abline(lm(mp1~cy1)))
