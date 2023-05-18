@@ -1,0 +1,25 @@
+@relation siva
+
+@attribute hotdogs {TRUE,FALSE}
+
+@attribute buns {TRUE,FALSE}
+
+@attribute ketchup {TRUE,FALSE}
+
+@attribute coke {TRUE,FALSE}
+
+@attribute chips {TRUE,FALSE}
+
+@data
+
+TRUE,TRUE,TRUE,FALSE,FALSE
+
+TRUE,TRUE,FALSE,FALSE,FALSE
+
+TRUE,FALSE,FALSE,TRUE,TRUE
+
+FALSE,FALSE,FALSE,TRUE,TRUE
+
+FALSE,FALSE,TRUE,FALSE,TRUE
+
+TRUE,FALSE,FALSE,TRUE,TRUE
