@@ -1,0 +1,25 @@
+@relation apriori
+
+@attribute I1 {true,false}
+
+@attribute I2 {true,false}
+
+@attribute I3 {true,false}
+
+@attribute I4 {true,false}
+
+@attribute I5 {true,false}
+
+@data
+
+true,true,true,false,false
+
+false,true,true,true,false
+
+false,false,false,true,true
+
+true,true,false,true,false
+
+true,true,true,false,true
+
+true,true,true,true,false
